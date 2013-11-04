@@ -1,0 +1,41 @@
+application: devfestgdg
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+
+#- url: .*
+#  script: index.html
+
+- url: /
+  script: index.html
+
+- url: /badges/(.*)
+  static_files: badges/\1
+  upload: badges/(.*)
+
+- url: /css/(.*)
+  static_files: css/\1
+  upload: css/(.*)
+
+- url: /images/(.*)
+  static_files: images/\1
+  upload: images/(.*)
+
+- url: /js/(.*)
+  static_files: js/\1
+  upload: js/(.*)
+
+- url: /json/(.*)
+  static_files: json/\1
+  upload: json/(.*)
+
+- url: /views/(.*)
+  static_files: views/\1
+  upload: views/(.*)
+
