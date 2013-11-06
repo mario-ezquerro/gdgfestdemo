@@ -7,6 +7,8 @@ look to http://gdgfresno.com/devfest for a sample
 
 this projects comes with no instructions
 
+this is a demo proyect
+
 /badges/ is a php script to generate 3x4 badges that be easily printed
 badge inserts - http://goo.gl/sL7cR0
 badge holders - http://goo.gl/fOHuCD
